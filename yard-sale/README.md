@@ -2,6 +2,8 @@
 
 This project is a shopping cart web application that allows users to add products to their cart and proceed to checkout. It is built using HTML, CSS, and JavaScript.
 
+![Captura de Pantalla 2023-11-20 a la(s) 9 34 02 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/2063c708-fb61-4532-8ac9-bdb9b08d82d7)
+
 ## Features
 
 - Responsive Design: The application is designed to be responsive and can be accessed on various devices, including desktops, tablets, and mobile phones.
