@@ -4,13 +4,12 @@ Welcome to the Frontend Mentor Challenges Showcase! This project is a collection
 
 ## Table of Contents
 
-- [Frontend Mentor Challenges Showcase](#frontend-mentor-challenges-showcase)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Project Structure](#project-structure)
-  - [Challenges](#challenges)
-  - [How to Contribute](#how-to-contribute)
-  - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Project Structure](#project-structure)
+- [Challenges](#challenges)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
 
 ## Introduction
 
