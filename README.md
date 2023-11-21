@@ -2,6 +2,8 @@
 
 Welcome to the Frontend Mentor Challenges Showcase! This project is a collection of my solutions to various frontend challenges, designed to showcase my skills, creativity, and problem-solving abilities in web development. Whether you're here to explore, learn, or contribute, I hope you find inspiration and insights.
 
+![Captura de Pantalla 2023-11-20 a la(s) 9 40 26 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/a857abd3-3b8f-49fc-9772-45f8bdd6dcb6)
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
