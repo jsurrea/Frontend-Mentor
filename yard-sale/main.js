@@ -48,13 +48,53 @@ function closeProductDetailAside() {
 }
 
 const productList = []
-for (let i = 0; i < 12; i++) {
-    productList.push({
-        name: 'Bike',
-        price: 120,
-        image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
-    })
-}
+
+productList.push({
+    name: 'Bike',
+    price: 120,
+    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+})
+productList.push({
+    name: 'Table',
+    price: 200,
+    image: 'https://images.pexels.com/photos/2451264/pexels-photo-2451264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Dish',
+    price: 40,
+    image: 'https://images.pexels.com/photos/842545/pexels-photo-842545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Chairs',
+    price: 400,
+    image: 'https://images.pexels.com/photos/279648/pexels-photo-279648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Fridge',
+    price: 800,
+    image: 'https://images.pexels.com/photos/6508357/pexels-photo-6508357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Plant',
+    price: 90,
+    image: 'https://images.pexels.com/photos/1445416/pexels-photo-1445416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Tree',
+    price: 2000,
+    image: 'https://images.pexels.com/photos/59321/pexels-photo-59321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Playground',
+    price: 1200,
+    image: 'https://images.pexels.com/photos/133458/pexels-photo-133458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+productList.push({
+    name: 'Teddybear',
+    price: 8,
+    image: 'https://images.pexels.com/photos/12211/pexels-photo-12211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+})
+
 
 function renderProducts(productList) {
     for(product of productList) {
