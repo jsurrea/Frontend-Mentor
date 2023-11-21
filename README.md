@@ -29,7 +29,7 @@ The project structure usually follows a consistent layout:
 
 ## Challenges
 
-Explore the challenges and solutions included in this showcase on [GitHub Pages!](jsurrea.github.io/Frontend-Mentor/)
+Explore the challenges and solutions included in this showcase on [GitHub Pages!](https://jsurrea.github.io/Frontend-Mentor/)
 
 ## How to Contribute
 
