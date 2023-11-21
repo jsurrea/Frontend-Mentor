@@ -7,6 +7,7 @@ Welcome to the Google Clone project! This project is a responsive web UI that mi
 ## Live Preview
 
 You can explore the live preview of the Google Clone through [GitHub Pages.](https://jsurrea.github.io/Google-clone/)
+![Captura de Pantalla 2023-11-20 a la(s) 8 06 09 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/a3b338cc-80e2-4c3f-9d76-69b2e392da50)
 
 ## Project Structure
 
