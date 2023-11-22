@@ -2,6 +2,8 @@
 
 ServiceFinder is a web application designed to simplify the process of finding the services you need. Whether you're looking for a plumber, electrician, or any other service provider, ServiceFinder is here to help.
 
+![Captura de Pantalla 2023-11-21 a la(s) 9 52 30 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/d0d21396-7cbb-4c44-93ef-6a75d575c075)
+
 ## Getting Started
 
 To get started with ServiceFinder, simply open the `index.html` file in your web browser. The application provides a user-friendly interface where you can search for the services you need.
