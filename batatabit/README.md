@@ -2,6 +2,20 @@
 
 Welcome to the BatataBit frontend project! This project is an educational endeavor that showcases various frontend development concepts and techniques. Below, you'll find details on the technologies used, the mobile-first approach, media queries, design tricks, and more.
 
+## Mobile View
+
+![Captura de Pantalla 2023-12-14 a la(s) 4 17 04 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/a441cad6-baf2-4545-91da-b9788d8841ca)
+![Captura de Pantalla 2023-12-14 a la(s) 4 17 21 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/57cb520a-1931-4f56-aa5b-85730e9c6b5c)
+![Captura de Pantalla 2023-12-14 a la(s) 4 17 41 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/d87ad8fd-97b1-4517-a393-5339d2dfc6d8)
+![Captura de Pantalla 2023-12-14 a la(s) 4 18 00 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/9c0cb5d2-368a-444b-ba48-5bf5a82066cc)
+
+## Tablet View
+
+![Captura de Pantalla 2023-12-14 a la(s) 4 18 42 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/15d8a524-f1f7-4f74-bfd8-d5266fb0f0e1)
+![Captura de Pantalla 2023-12-14 a la(s) 4 18 24 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/da5bf6bb-c011-4511-936c-7fba18fe92ae)
+![Captura de Pantalla 2023-12-14 a la(s) 4 18 32 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/3693ec04-da03-4cb8-b4d5-78c494fcdc33)
+
+
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
