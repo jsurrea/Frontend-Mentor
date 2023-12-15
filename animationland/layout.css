@@ -100,32 +100,26 @@ body {
 .layer-8 {
   position: absolute;
   z-index: 8;
-  background-color: green;
   bottom: 0;
-  width: 100%;
+  left: 30%;
+  width: 40%;
   height: 15%;
-  
 }
 
 .layer-9 {
   position: absolute;
   z-index: 9;
-  background-color: whitesmoke;
   left: 0;
   bottom: 0;
   width: 35%;
   height: 15%;
-  display: none;
 }
 
 .layer-10 {
   position: absolute;
   z-index: 10;
-  background-color: whitesmoke;
   right: 0;
   bottom: 0;
   width: 35%;
   height: 15%;
-  display: none;
 }
-
