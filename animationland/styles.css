@@ -1,4 +1,4 @@
-body {
+/* body {
   counter-reset: game;
 }
 
@@ -8,4 +8,63 @@ input:checked {
 
 .total-count::after {
   content: counter(game);
+} */
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
+
+.phone {
+  position: relative;
+  border: 8px solid black;
+  border-radius: 40px;
+  height: clamp(300px, 600px, 90%);
+  aspect-ratio: 1/2;
+  background-color: #CCEFFF;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.layer-1 {
+  position: absolute;
+}
+
+.layer-2 {
+  position: absolute;
+}
+
+.layer-3 {
+  position: absolute;
+}
+
+.layer-4 {
+  position: absolute;
+}
+
+.layer-5 {
+  position: absolute;
+}
+
+.layer-6 {
+  position: absolute;
+}
+
+.layer-7 {
+  position: absolute;
+}
+
+.layer-8 {
+  position: absolute;
+}
+
+.layer-9 {
+  position: absolute;
+}
+
+.layer-10 {
+  position: absolute;
+}
+
