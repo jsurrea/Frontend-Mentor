@@ -54,4 +54,4 @@ Feel free to explore the CSS files (`game.css`, `bunny.css`, `wall.css`, `lawn.c
 
 > Happy coding and bunny-catching in AnimationLand! 🐰✨
 
-![Captura de Pantalla 2023-12-15 a la(s) 5 05 04 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/b697653e-eae9-44e8-97f6-00e83a0a00c1)
+![Captura de Pantalla 2023-12-15 a la(s) 4 57 21 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/89d64859-e1ce-4d82-b5e7-550567c19d93)
