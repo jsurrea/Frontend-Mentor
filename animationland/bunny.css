@@ -1,5 +1,7 @@
 :root {
   --bunny-color: white;
+  --ear-color: pink;
+  --eye-color: black;
 }
 
 .bunny {
@@ -32,13 +34,13 @@
 
 .ear__inner {
   border-radius: 95%;
-  background-color: pink;
+  background-color: var(--ear-color);
   width: 70%;
   aspect-ratio: 1/3;
 }
 
 .eye {
-  background-color: black;
+  background-color: var(--eye-color);
   border-radius: 50%;
   width: 4px;
   height: 4px;
