@@ -1,0 +1,131 @@
+:root {
+  --bunny-size: 20%;
+  --bunny-separation: calc(10%/2);
+  --wall-1-height: 70%;
+  --wall-1-width: 70%;
+  --wall-2-height: 50%;
+  --wall-2-width: 70%;
+  --wall-3-height: 30%;
+  --wall-3-width: 50%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.phone {
+  position: relative;
+  border: 8px solid black;
+  border-radius: 40px;
+  height: clamp(300px, 600px, 90%);
+  aspect-ratio: 1/2;
+  background-color: #CCEFFF;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+  overflow: hidden;
+}
+
+.layer-1 {
+  --wall-1-beginning: calc(100%/2 - var(--wall-1-width)/2);
+  --available-width: calc(var(--wall-1-width) - 2*var(--bunny-size));
+
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: calc(var(--wall-1-beginning) + var(--available-width)/3);
+  width: var(--bunny-size);
+  height: calc(var(--wall-1-height) + var(--bunny-separation));
+}
+
+.layer-2 {
+  --wall-1-ending: calc(100%/2 - var(--wall-1-width)/2);
+  --available-width: calc(var(--wall-1-width) - 2*var(--bunny-size));
+
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: calc(var(--wall-1-ending) + var(--available-width)/3);
+  width: var(--bunny-size);
+  height: calc(var(--wall-1-height) + var(--bunny-separation));
+}
+
+.layer-3 {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: calc(100%/2 - var(--wall-1-width)/2);
+  width: var(--wall-1-width);
+  height: var(--wall-1-height);
+}
+
+.layer-4 {
+  position: absolute;
+  z-index: 4;
+  bottom: 0;
+  left: calc(var(--wall-2-width)/2 - var(--bunny-size)/2);
+  width: var(--bunny-size);
+  height: calc(var(--wall-2-height) + var(--bunny-separation));
+}
+
+.layer-5 {
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  width: var(--wall-2-width);
+  height: var(--wall-2-height);
+}
+
+.layer-6 {
+  position: absolute;
+  z-index: 6;
+  bottom: 0;
+  right: calc(var(--wall-3-width)/2 - var(--bunny-size)/2);
+  width: var(--bunny-size);
+  height: calc(var(--wall-3-height) + var(--bunny-separation));
+}
+
+.layer-7 {
+  position: absolute;
+  z-index: 7;
+  bottom: 0;
+  right: 0;
+  width: var(--wall-3-width);
+  height: var(--wall-3-height);
+}
+
+.layer-8 {
+  position: absolute;
+  z-index: 8;
+  background-color: green;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  
+}
+
+.layer-9 {
+  position: absolute;
+  z-index: 9;
+  background-color: whitesmoke;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 15%;
+  display: none;
+}
+
+.layer-10 {
+  position: absolute;
+  z-index: 10;
+  background-color: whitesmoke;
+  right: 0;
+  bottom: 0;
+  width: 35%;
+  height: 15%;
+  display: none;
+}
+
