@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Animation Land",
+    "description": "Colorful mobile game featuring animations, drawing, and other cool CSS tricks!",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/89d64859-e1ce-4d82-b5e7-550567c19d93",
+    "path": "animationland/"
+  },
+  {
+    "name": "The Conf",
+    "description": "Landing page for a conference webpage built with Bootstrap 5.3",
+    "image": "https://user-images.githubusercontent.com/68788933/230756551-1611c8d6-c456-4170-870a-9a73a06fe59c.png",
+    "path": "the-conf/"
+  },
+  {
+    "name": "Yard Sale",
+    "description": "Online marketplace for buying and selling a variety of items",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/2063c708-fb61-4532-8ac9-bdb9b08d82d7",
+    "path": "yard-sale/"
+  },
+  {
+    "name": "Service Finder",
+    "description": "Interactive web UI featuring captivating CSS animations, including a playful rotating button and pulsating effects",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/d0d21396-7cbb-4c44-93ef-6a75d575c075",
+    "path": "service-finder/"
+  },
+  {
+    "name": "Google Clone",
+    "description": "Responsive web UI that mimics the appearance of Google's search engine service",
+    "image": "https://user-images.githubusercontent.com/68788933/284430741-a3b338cc-80e2-4c3f-9d76-69b2e392da50.png",
+    "path": "google-clone/"
+  },
+  {
+    "name": "BatataBit",
+    "description": "Mobile-First Responsive Cryptocurrency Business Landing Page User Interface",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/15d8a524-f1f7-4f74-bfd8-d5266fb0f0e1",
+    "path": "batatabit/"
+  }
+]
