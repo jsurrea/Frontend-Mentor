@@ -1,14 +1,18 @@
-/* body {
+body {
   counter-reset: game;
 }
 
-input:checked {
+input[type="checkbox"]:checked {
   counter-increment: game;
 }
 
 .total-count::after {
   content: counter(game);
-} */
+}
 
-
-
+input[type="checkbox"] {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
