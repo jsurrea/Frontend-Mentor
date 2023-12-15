@@ -10,6 +10,10 @@ input:checked {
   content: counter(game);
 } */
 
+:root {
+  --rabit-size: 20%;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -34,8 +38,8 @@ body {
   z-index: 1;
   background-color: white;
   bottom: 0;
-  left: calc((100%/2 - 70%/2) + (70% - 2*20%)/4);
-  width: 20%;
+  left: calc((100%/2 - 70%/2) + (70% - 2*var(--rabit-size))/4);
+  width: var(--rabit-size);
   height: 80%;
 }
 
@@ -44,8 +48,8 @@ body {
   z-index: 2;
   background-color: white;
   bottom: 0;
-  left: calc((100%/2 - 70%/2) + (70% - 2*20%)/4 + (20%) + 2*(70% - 2*20%)/4);
-  width: 20%;
+  left: calc((100%/2 - 70%/2) + (70% - 2*var(--rabit-size))/4 + (var(--rabit-size)) + 2*(70% - 2*var(--rabit-size))/4);
+  width: var(--rabit-size);
   height: 80%;
 }
 
@@ -66,8 +70,8 @@ body {
   z-index: 4;
   background-color: white;
   bottom: 0;
-  left: calc(70%/2 - 20%/2);
-  width: 20%;
+  left: calc(70%/2 - var(--rabit-size)/2);
+  width: var(--rabit-size);
   height: 60%;
 }
 
@@ -88,8 +92,8 @@ body {
   z-index: 6;
   background-color: white;
   bottom: 0;
-  right: calc(50%/2 - 20%/2);
-  width: 20%;
+  right: calc(50%/2 - var(--rabit-size)/2);
+  width: var(--rabit-size);
   height: 40%;
 }
 
