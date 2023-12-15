@@ -1,9 +1,40 @@
 :root {
-  --wall-color: wheat;
+  --wall-color: #BB6D50;
+  --strong-wall-color: #A64C2E;
+  --grass-color: #67A167;
 }
 
 .wall {
   background-color: var(--wall-color);
   border-radius: 15px;
   box-shadow: 0px 3px 8px 5px rgba(0,0,0,0.3);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wall::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  background-color: var(--grass-color);
+}
+
+.wall::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  /* Zig-Zag */
+  --zig-zag-size: 10px;
+  height: calc(var(--zig-zag-size) * 2);
+  background: 
+    linear-gradient(45deg, var(--strong-wall-color) 25%, transparent 25%) 0 var(--zig-zag-size),
+    linear-gradient(-135deg, var(--strong-wall-color) 25%, transparent 25%) var(--zig-zag-size) var(--zig-zag-size),
+    linear-gradient(135deg, var(--strong-wall-color) 25%, transparent 25%) var(--zig-zag-size) var(--zig-zag-size),
+    linear-gradient(-45deg, var(--strong-wall-color) 25%, transparent 25%) 0 var(--zig-zag-size);
+  background-size: calc(var(--zig-zag-size) * 2) calc(var(--zig-zag-size) * 2);
 }
