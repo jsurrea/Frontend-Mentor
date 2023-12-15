@@ -2,6 +2,8 @@
 
 This project is an educational exploration of various CSS features to create a delightful animated scene. The project focuses on demonstrating key CSS concepts such as animations, stack context, drawing, and layout techniques. Below, I'll highlight the notable features used in each aspect of the project.
 
+![Captura de Pantalla 2023-12-15 a la(s) 5 05 04 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/c7a4169f-736b-43cd-b9ff-12023217a1e2)
+
 ## CSS Features Utilized
 
 ### Fonts and Styling
@@ -51,3 +53,5 @@ This project is an educational exploration of various CSS features to create a d
 Feel free to explore the CSS files (`game.css`, `bunny.css`, `wall.css`, `lawn.css`, `layout.css`) to delve deeper into the implementation details and learn from the code.
 
 > Happy coding and bunny-catching in AnimationLand! 🐰✨
+
+![Captura de Pantalla 2023-12-15 a la(s) 5 05 04 p m](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/b697653e-eae9-44e8-97f6-00e83a0a00c1)
