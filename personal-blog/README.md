@@ -19,17 +19,27 @@ The project is organized into several HTML files, a main CSS file, and a media q
 
 The home page that introduces the blog and encourages users to discover new posts.
 
+![Screen Shot 2023-12-19 at 21 53 39](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/20889c96-8de5-48ca-9c8f-ff28d41cee2b)
+
 ### blogs.html
 
 Displays the latest news and a list of blog posts.
+
+![Screen Shot 2023-12-19 at 21 54 11](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/8385004a-b7cd-4fd1-8075-55d5f005061c)
+
+![Screen Shot 2023-12-19 at 21 54 26](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/66852f61-f743-4716-a3d1-5403950b8d10)
 
 ### blog.html
 
 Detailed view of a single blog post, including text content and images.
 
+![Screen Shot 2023-12-19 at 21 55 04](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/a2cc7f10-7867-484a-bd38-d78af44adbdc)
+
 ### profile.html
 
 Information about the blog author, including a profile picture and details about their projects.
+
+![Screen Shot 2023-12-19 at 21 55 28](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/475444e6-3328-4024-a4e9-1a9ed2c4fe74)
 
 ## CSS Files
 
