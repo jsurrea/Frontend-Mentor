@@ -24,6 +24,12 @@
     "path": "service-finder/"
   },
   {
+    "name": "Personal Blog",
+    "description": "Elegant blog website with a visually appealing user interface",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/20889c96-8de5-48ca-9c8f-ff28d41cee2b",
+    "path": "personal-blog/"
+  },
+  {
     "name": "Google Clone",
     "description": "Responsive web UI that mimics the appearance of Google's search engine service",
     "image": "https://user-images.githubusercontent.com/68788933/284430741-a3b338cc-80e2-4c3f-9d76-69b2e392da50.png",
