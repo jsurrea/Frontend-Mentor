@@ -30,6 +30,40 @@ nav .icons button img {
   height: 36px;
 }
 
+main article {
+  color: #7C6A0A;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+main article .impact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+main article h1 {
+  font-size: 3em;
+  margin: 0 0 10px 0;
+}
+main article p {
+  max-width: 60ch;
+}
+main article button {
+  width: 12vw;
+  padding: 20px;
+  background: #FA9500;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+main article img {
+  width: 30vw;
+  border-radius: 20px;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
