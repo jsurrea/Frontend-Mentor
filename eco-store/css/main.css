@@ -2,11 +2,32 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #FFEFE7;
 }
 
 nav {
-  width: 100%;
-  height: 100px;
+  width: auto;
+  padding: 15px 30px;
+  color: #7C6A0A;
+  display: flex;
+  justify-content: space-between;
+}
+nav p {
+  font-size: 1.5em;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+nav .icons button img {
+  width: 36px;
+  height: 36px;
 }
 
 footer {
