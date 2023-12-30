@@ -1,10 +1,26 @@
-$primary-color: #FFEFE7;
-$secondary-color: #FFDAC6;
-$tertiary-color: #BABD8D;
-$quaternary-color: #FA9500;
-$primary-text-color: #7C6A0A;
+$dark-green: #7C6A0A;
+$soft-green: #BABD8D;
+$soft-pink: #FFDAC6;
+$light-white: #FFEFE7;
+$dark-orange: #E86424;
+$regular-orange: #FA9500;
 $font-stack: 'IBM Plex Sans', sans-serif;
-$paragraph-font-size: 1.5em;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+/* Mixins */
+@mixin tablet {
+    @media screen and (max-width: 900px) {
+        @content
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 520px) {
+        @content
+    }
+}
 
 body {
     margin: 0;
