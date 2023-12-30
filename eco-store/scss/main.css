@@ -1,4 +1,5 @@
 /* Mixins */
+/* Mobile first by default */
 body {
   margin: 0;
   padding: 0;
@@ -8,65 +9,79 @@ body {
 }
 
 nav {
-  width: auto;
-  padding: 15px 30px;
-  color: #7C6A0A;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 nav p {
-  font-size: 1.5em;
+  margin: 0;
+  font-weight: 400;
+  color: #7C6A0A;
 }
 nav .icons {
   display: flex;
-  gap: 15px;
+  flex-direction: row;
 }
-nav .icons button {
-  background-color: transparent;
-  border: none;
+nav .profile, nav .wishlist, nav .cart, nav .menu {
   cursor: pointer;
 }
-nav .icons button img {
-  width: 36px;
-  height: 36px;
+@media screen and (max-width: 519px) {
+  nav {
+    padding: 25px 20px;
+  }
+  nav .profile, nav .wishlist, nav .cart {
+    display: none;
+  }
+  nav .menu {
+    width: 32px;
+    height: 32px;
+  }
+  nav .icons {
+    gap: 10px;
+  }
+  nav p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  nav {
+    padding: 32px 60px;
+  }
+  nav .profile, nav .wishlist, nav .cart {
+    width: 40px;
+    height: 40px;
+  }
+  nav .menu {
+    display: none;
+  }
+  nav .icons {
+    gap: 15px;
+  }
+  nav p {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 900px) {
+  nav {
+    padding: 32px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav .profile, nav .wishlist, nav .cart {
+    width: 50px;
+    height: 50px;
+  }
+  nav .menu {
+    display: none;
+  }
+  nav .icons {
+    gap: 20px;
+  }
+  nav p {
+    font-size: 30px;
+  }
 }
 
-main article {
-  color: #7C6A0A;
-  padding: 0 60px;
-  display: flex;
-  justify-content: space-between;
-}
-main article .impact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-main article h1 {
-  font-size: 3em;
-  margin: 0 0 10px 0;
-}
-main article p {
-  max-width: 60ch;
-}
-main article button {
-  width: 12vw;
-  padding: 20px;
-  background: #FA9500;
-  border-style: none;
-  border-radius: 35px;
-  color: white;
-  font-size: 1em;
-  cursor: pointer;
-}
-main article img {
-  width: 30vw;
-  border-radius: 20px;
-}
-
-footer {
-  background-color: #FA9500;
-  width: 100%;
-  height: 250px;
+main, footer {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
