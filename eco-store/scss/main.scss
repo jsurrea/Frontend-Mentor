@@ -258,7 +258,58 @@ main {
     }
 }
 
-.product-section, .info-section {
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    article {
+        h2, h3, p {
+            color: $dark-green;
+            margin: 0;
+        }
+
+        .product-image {
+            width: 100%;
+            aspect-ratio: 3 / 4;
+            border-radius: 20px;
+        }
+
+        .card-section {
+            @include mobile() {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                overflow-x: scroll;
+
+                .product-card {
+                    position: relative;
+                    min-width: 300px;
+
+                    .heart-icon {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        width: 32px;
+                        height: 32px;
+                        padding: 5px;
+                        background-color: $light-white;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+
+                    .product-info {
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.info-section {
     display: none;
 }
 
@@ -384,48 +435,3 @@ footer {
         }
     }
 }
-
-// main {
-
-//     article {
-//         color: $primary-text-color;
-//         padding: 0 60px;
-//         display: flex;
-//         justify-content: space-between;
-
-//         .impact-section {
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             gap: 10px;
-//         }
-
-//         h1 {
-//             font-size: 3em;
-//             margin: 0 0 10px 0;
-//         }
-
-//         p {
-//             max-width: 60ch;
-//         }
-
-//         button {
-//             width: 12vw;
-//             padding: 20px;
-//             background: $quaternary-color;
-//             border-style: none;
-//             border-radius: 35px;
-//             color: white;
-//             font-size: 1em;
-//             cursor: pointer;
-//         }
-
-//         img {
-//             width: 30vw;
-//             border-radius: 20px;
-//         }
-//     }
-
-// }
-
-
