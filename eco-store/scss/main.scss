@@ -494,6 +494,29 @@ main {
             gap: 5px;
         }
     }
+
+    @include desktop() {
+        .gallery-photos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .pictograms-container {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            place-items: center;
+            place-content: center;
+        }
+
+        .pictogram {
+            display: flex;
+            place-items: center;
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
 }
 
 footer {

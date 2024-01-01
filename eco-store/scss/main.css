@@ -414,6 +414,26 @@ main {
     gap: 5px;
   }
 }
+@media screen and (min-width: 900px) {
+  .info-section .gallery-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .info-section .pictograms-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    place-items: center;
+    place-content: center;
+  }
+  .info-section .pictogram {
+    display: flex;
+    place-items: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+}
 
 footer {
   background-color: #FA9500;
