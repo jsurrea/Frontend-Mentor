@@ -425,6 +425,16 @@ main {
         object-fit: cover;
     }
 
+    .pictogram {
+        img {
+            width: 100px;
+        }
+
+        p {
+            max-width: 30ch;
+        }
+    }
+
     @include mobile() {
         .gallery-photos {
             display: flex;
@@ -443,14 +453,6 @@ main {
             place-items: center;
             flex-direction: column;
             gap: 5px;
-
-            img {
-                width: 100px;
-            }
-
-            p {
-                max-width: 30ch;
-            }
         }
 
         .location {
@@ -459,6 +461,37 @@ main {
             img {
                 aspect-ratio: 3 / 4;
             }
+        }
+    }
+
+    @include tablet() {
+        .gallery-photos {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            overflow-x: scroll;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            img {
+                width: 400px;
+            }
+        }
+
+        .pictograms-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            place-items: center;
+        }
+
+        .pictogram {
+            display: flex;
+            place-items: center;
+            flex-direction: row;
+            gap: 5px;
         }
     }
 }

@@ -358,6 +358,12 @@ main {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.info-section .pictogram img {
+  width: 100px;
+}
+.info-section .pictogram p {
+  max-width: 30ch;
+}
 @media screen and (max-width: 519px) {
   .info-section .gallery-photos {
     display: flex;
@@ -375,17 +381,37 @@ main {
     flex-direction: column;
     gap: 5px;
   }
-  .info-section .pictogram img {
-    width: 100px;
-  }
-  .info-section .pictogram p {
-    max-width: 30ch;
-  }
   .info-section .location {
     margin-bottom: 20px;
   }
   .info-section .location img {
     aspect-ratio: 3/4;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .info-section .gallery-photos {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: scroll;
+  }
+  .info-section .gallery-photos::-webkit-scrollbar {
+    display: none;
+  }
+  .info-section .gallery-photos img {
+    width: 400px;
+  }
+  .info-section .pictograms-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    place-items: center;
+  }
+  .info-section .pictogram {
+    display: flex;
+    place-items: center;
+    flex-direction: row;
+    gap: 5px;
   }
 }
 
