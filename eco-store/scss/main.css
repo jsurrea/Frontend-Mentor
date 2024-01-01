@@ -212,7 +212,7 @@ main {
 .product-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
 }
 .product-section article {
   display: flex;
@@ -226,7 +226,6 @@ main {
 .product-section article .product-image {
   width: 100%;
   aspect-ratio: 3/4;
-  border-radius: 20px;
 }
 @media screen and (max-width: 519px) {
   .product-section article .card-section {
@@ -235,9 +234,15 @@ main {
     gap: 15px;
     overflow-x: scroll;
   }
+  .product-section article .card-section::-webkit-scrollbar {
+    display: none;
+  }
   .product-section article .card-section .product-card {
     position: relative;
     min-width: 300px;
+    aspect-ratio: 3/4;
+    border-radius: 20px;
+    overflow: hidden;
   }
   .product-section article .card-section .product-card .heart-icon {
     position: absolute;
@@ -259,6 +264,17 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    z-index: 2;
+  }
+  .product-section article .card-section .product-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgb(255, 255, 255)) 0 0/100% 100%;
+    z-index: 1;
   }
 }
 
