@@ -177,6 +177,14 @@ main {
   }
 }
 
+.category--healthcare {
+  --card-bg-color: #FFDAC6;
+}
+
+.category--furniture {
+  --card-bg-color: #BABD8D;
+}
+
 .product-section {
   display: flex;
   flex-direction: column;
@@ -262,7 +270,7 @@ main {
     flex-direction: column;
     gap: 10px;
     border-radius: 20px;
-    background-color: #BABD8D;
+    background-color: var(--card-bg-color);
     box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.25);
   }
   .product-section article .card-section .product-card .product-image {
@@ -278,13 +286,9 @@ main {
 }
 @media screen and (min-width: 900px) {
   .product-section article .card-section {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    overflow-x: scroll;
-  }
-  .product-section article .card-section::-webkit-scrollbar {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px 20px;
   }
   .product-section article .card-section .product-card {
     position: relative;
@@ -292,18 +296,17 @@ main {
     flex-direction: column;
     gap: 10px;
     border-radius: 20px;
-    background-color: #BABD8D;
+    padding: 20px;
+    background-color: var(--card-bg-color);
     box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.25);
   }
   .product-section article .card-section .product-card .product-image {
-    min-width: 300px;
     border-radius: 20px;
   }
   .product-section article .card-section .product-card .product-info {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 0 20px 15px;
   }
 }
 
@@ -331,6 +334,11 @@ footer .social-media {
   justify-content: center;
   gap: 20px;
 }
+footer .social-media img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
 @media screen and (max-width: 519px) {
   footer {
     display: flex;
@@ -342,11 +350,6 @@ footer .social-media {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
-  footer .social-media img {
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
   }
 }
 @media screen and (min-width: 520px) and (max-width: 899px) {
@@ -373,11 +376,6 @@ footer .social-media {
     grid-area: social-media;
     justify-self: end;
   }
-  footer .social-media img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
 }
 @media screen and (min-width: 900px) {
   footer {
@@ -397,10 +395,5 @@ footer .social-media {
   footer .social-media {
     grid-area: social-media;
     justify-self: end;
-  }
-  footer .social-media img {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
   }
 }/*# sourceMappingURL=main.css.map */
