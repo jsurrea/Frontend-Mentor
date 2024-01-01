@@ -311,7 +311,82 @@ main {
 }
 
 .info-section {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.info-section h2 {
+  color: #7C6A0A;
+  margin: 0;
+}
+.info-section h3 {
+  color: #E86424;
+  margin: 0;
+}
+.info-section .address-container p {
+  color: #E86424;
+  font-weight: 500;
+  margin: 0;
+}
+.info-section .about-us p {
+  color: #E86424;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+.info-section .about-us, .info-section .gallery, .info-section .location {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.info-section .address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.info-section .location img {
+  width: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info-section .gallery-photos img {
+  width: 100%;
+  border-radius: 20px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 519px) {
+  .info-section .gallery-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .info-section .pictograms-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .info-section .pictogram {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .info-section .pictogram img {
+    width: 100px;
+  }
+  .info-section .pictogram p {
+    max-width: 30ch;
+  }
+  .info-section .location {
+    margin-bottom: 20px;
+  }
+  .info-section .location img {
+    aspect-ratio: 3/4;
+  }
 }
 
 footer {
