@@ -6,6 +6,12 @@
     "path": "animationland/"
   },
   {
+    "name": "Eco Store",
+    "description": "Beautiful Landing Page for an online store built for mobile, tablet and desktop with Sass/SCSS",
+    "image": "https://github.com/jsurrea/Frontend-Mentor/assets/68788933/5aff5d07-43a8-4d12-b2a4-db9183482974",
+    "path": "eco-store/"
+  },
+  {
     "name": "The Conf",
     "description": "Landing page for a conference webpage built with Bootstrap 5.3",
     "image": "https://user-images.githubusercontent.com/68788933/230756551-1611c8d6-c456-4170-870a-9a73a06fe59c.png",
