@@ -2,13 +2,28 @@
 
 This is an educational project showcasing a responsive website for an eco-friendly store. The project is built using HTML and SCSS (Sass). Below is a detailed README to understand the structure, styling, and features of the code.
 
-## Demo
+## Design
 
 ### Mobile
 
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/d3aea796-aedc-49cf-82a5-68f598cde7e2)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/bab71bbd-e6c1-49d4-9bd1-790f3ac33194)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/81f6956e-b23b-414a-86f9-b613226d5150)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/e5004be4-190c-424a-a26b-1e3bb5058e45)
+
 ### Tablet
 
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/5ddb7bb9-0165-45af-951b-b02ef9fab708)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/cb5d6881-b131-4e05-b551-b5780c8f0f88)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/b55563e0-a826-486e-a9ea-cc927eb4f663)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/1590e86a-1331-4ccd-ae23-7cdb921aa65d)
+
 ### Desktop
+
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/5aff5d07-43a8-4d12-b2a4-db9183482974)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/da39f64d-2610-4c04-9dfd-9d0110fd0b34)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/bc747fd0-e4cd-43ed-9c95-4c055b65c6d2)
+![image](https://github.com/jsurrea/Frontend-Mentor/assets/68788933/af8dfed6-f96f-4227-bf4c-bc6feac24dc6)
 
 ## Project Structure
 
